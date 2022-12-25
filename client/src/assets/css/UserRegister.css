@@ -1,0 +1,87 @@
+.user-register{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    font-family:monospace;}
+.userReg-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.userReg-form input{
+    margin:2px;
+    width: 500px;
+    height: 30px;
+   padding-left: 1em;
+    border-radius: 30pxd;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.userReg-form input:focus{
+    outline:none;
+    content: none;
+}
+
+.userReg-form button{
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    outline: none;
+}
+.userReg-form button:hover{
+    color:white;
+    background-color: black;
+}
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions>svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}

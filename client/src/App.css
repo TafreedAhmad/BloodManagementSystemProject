@@ -1,0 +1,16 @@
+.App {
+    background-image:
+        url("./assets/img/123.png");
+        position: fixed;
+            top: 0;
+            left: 0;
+
+        
+            /* Preserve aspet ratio */
+            min-width: 100%;
+            background-size: 120%;
+            min-height: 200%;
+            background-repeat: no-repeat;
+            font-size: large;
+            font-family: 'Raleway';
+}
